@@ -20,7 +20,7 @@ void main() {
 
     final sliderState = key.currentState;
 
-    expect(sliderState.currentPage, 0);
+    expect(sliderState!.currentPage, 0);
     expect(sliderState.hasPrevious, false);
     expect(sliderState.hasNext, true);
 
